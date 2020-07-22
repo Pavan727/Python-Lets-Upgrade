@@ -1,0 +1,93 @@
+                                                                     Lets Upgrade Python Assignment - 2
+
+
+
+Day 2 summary
+
+
+* If we give any statement within double quotes, then that statement will be displayed
+    Ex : print("Python class")
+		o/p : Python class
+* We can also use single quote instead of double quote, but if there is another single quote between them, then it shows syntax error 
+    Ex : print('Python's world')
+                 It shows syntax error
+         To avoid this syntax error, we should use slash
+		 print('Python\'s world')   
+*  ESCAPE SEQUENCE : 
+ 	\t is used for tab   Ex: print("Hello\tPython")
+				 o/p - Hello	Python
+        \n is used for new line       Ex: print("Hello\nPython")
+ 				 o/p -  Hello 
+					Python
+* Formatted Output
+          name = "Akshay"
+          marks =            
+	  age = "21"
+         1) print("The name of person is", name, "marks is", marks, "age is", age)
+                 o/p - The name of person is Akshay, marks is 70, age is 21
+          
+    	 2) print("The name of person is %s marks is %f age is %d (name, marks, age))
+	
+		 
+	 Variables - if, def, for cannot be used as variables
+                      Ex : a10 is valid variable , 10a is not valid variable 
+                            _10 = 6 is valid but not meaningful variable
+  	
+
+	In python, symbol for power is **
+
+
+* Comparision operators
+       
+        a=10							a=10
+        b=20  ---}  o/p - False                 		b=20    -----} o/p - True   
+        a==b   							a!=b
+                     
+    		a!=b is valid, but a=!b is invalid 
+
+
+*  Assignment Operators
+         
+         a=a+b
+           a+=b is valid ,   a=+b is not right
+
+*  Bitwise operators
+         
+         a=240
+	 b=1    -----}  o/p -241
+	 a|b    
+*  Logical operators 
+         
+          Based on True and False 
+           OR means addition
+  	   And means multiplication
+
+
+	T OR T   =   T 				T AND F = F
+        T OR F   =   T				F AND T = F
+	F OR T   =   T				F AND F = F
+	F OR F   =   F              		T AND T = T
+
+* Not operator 
+        
+      10<9   ----} False
+      not 10<9  -----} True
+	not True ------} false
+
+* Membership operators
+     
+        It checks the presence of a particular letter
+
+	str1 = "Program"                       "x in str1
+		"a" in str1 			False 
+		True       				                           
+       
+* Identity operators 
+        
+       a=10						a=10
+	b=10	-----} True         			b=10   --------} False 
+	a==b 						a is b 
+
+* Operator precedence
+       
+       In an arithmetic operation, certain arithmetic operators have their precedence i.e which operator has got first preference while doing an arithmetic operation.
