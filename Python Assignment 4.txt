@@ -1,0 +1,108 @@
+									Lets Upgrade Python Assignment- 4
+ 
+
+
+
+1)   Find all occurence of substring "we" in the given string
+
+	"what we think we become , we are python programmer" print index values
+    
+        In [1] :
+
+	string = "what we think we become; we are Python programmer"
+	index=[];
+	for i in range(len(string)):
+	   if string.startswith("we",i):
+		index.append(i)
+
+	print(f"The start indexs of the substring \"we\" are : {index} ")
+	
+	The start indexs of the substring "we" are : [5,14,25]
+
+
+
+2)   write islower() and isupper() function with diff kind of string examples
+	 
+	In [2] :
+
+	help(str.islower)
+	help on method_descriptor :
+	islower(self,/)
+ 		Return True if the string is a lowercase string, False otherwise.
+		
+	A string is lowercase if all cased characters in the string are lowercase and there is at least one cased character in the string.
+
+	
+	In [3]:
+
+	help(str.isupper)
+	Help on method_descriptor:
+		isupper(self,/)
+		   Return True if the string is an uppercase string, False otherwise.
+	A string is uppercase if all cased characters in the string are uppercase and there is atleast one cased character in the string.
+	
+	In[4]:
+	
+	str1="hello"
+	str1.islower()
+	Out[4]:  
+	True
+
+	In[5]:
+	
+	str1.isupper()
+	Out[5]:
+	False
+
+	In[6]:
+
+	str2 = "HelloWelcome"
+	str2.islower()
+	Out[6]:
+	False
+
+	In[7]:
+
+	str2.isupper()
+	Out[7]
+	False
+
+	In[8]:
+
+	str3="HELLO"
+	str3.islower()
+	Out[8]:
+	False
+
+	In[9]:
+
+	str3.isupper()
+	Out[9]
+	True
+
+	In[10]:
+	
+	str4 = "python123421@!$"
+	str4.isupper()
+	Out[10]:
+	False
+
+	In[11]:
+	
+	str4.islower()
+	Out[11]:
+	True 
+
+	In[12]:
+
+	str5 = "Python123@$#$%"
+	str5.isupper()
+	Out[12]:
+	True
+
+	In[14]:
+
+	str5.islower()
+	Out[14]:
+	False
+		
