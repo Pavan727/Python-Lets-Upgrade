@@ -1,0 +1,25 @@
+								Lets Upgrade Python Assignment - 6
+
+
+
+	list1 = [1,2,3,4,5,7,8]
+	list2 = ["a","b","c","d","e"]
+	
+	convert to dictionary
+
+	in one line-code using list compersion (without using zip method)
+
+	In [1] :
+	 list1 = [1,2,3,4,5,7,8]
+	 list2 = ["a", "b", "c", "d", "e"]
+
+	In [2] :
+	 dist1 = {list1[each] : list2[each] for each in range(min(len(list1),len(list2)))}
+	   each in range(min(len(list1), len(list2)))}
+
+	In [3] :
+	  print(dist1,type(dist1))
+	   {1 : 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'} <class 'dict'>
+
+
+	
